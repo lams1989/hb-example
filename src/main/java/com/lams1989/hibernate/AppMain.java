@@ -1,6 +1,5 @@
 package com.lams1989.hibernate;
 
-import java.util.Date;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

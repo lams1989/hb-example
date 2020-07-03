@@ -21,6 +21,7 @@ public class UserOperation {
 	}
 
 	public static List<User> getUsers(Session session) {
+		@SuppressWarnings("unchecked")
 		List<User> users = session.createQuery("from User").list();
 		// users = session.createSQLQuery("select * from user_table").list();
 		return users;
