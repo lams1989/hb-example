@@ -26,8 +26,5 @@ build/
 local.properties
 .loadpath
 .factorypath
+target/
 
-##############################
-## Maven
-##############################
-/target/
